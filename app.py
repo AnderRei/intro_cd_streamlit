@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-ARQUIVO = "/workspaces/intro_cd_streamlit/StudentPerformanceFactors.csv"
+#RQUIVO = "/workspaces/intro_cd_streamlit/StudentPerformanceFactors.csv"
+ARQUIVO = r"C:\Users\ander\OneDrive\Documents\GitHub\intro_cd_streamlit\StudentPerformanceFactors.csv"
 
 # 1) Configurações iniciais da página
 st.set_page_config(page_title="Painel - Desempenho dos Estudantes", layout="wide")
